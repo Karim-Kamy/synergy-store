@@ -1,4 +1,4 @@
-const phoneNumber = "201227224423"; // Updated with your WhatsApp number
+const phoneNumber = "201227224423"; 
 
 function buyItem(item, price) {
     const message = `Hi! I want to buy ${item} for EGP ${price}.`;
