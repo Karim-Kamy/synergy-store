@@ -1,8 +1,8 @@
-const phoneNumber = "201XXXXXXXXX"; // put your WhatsApp number here
+const phoneNumber = "201227224423"; // Updated with your WhatsApp number
 
 function buyItem(item, price) {
     const message = `Hi! I want to buy ${item} for EGP ${price}.`;
-    const whatsappURL = `https://wa.me/${01227224423}?text=${encodeURIComponent(message)}`;
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, "_blank");
 }
